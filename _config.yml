@@ -1,0 +1,10 @@
+title: Py-Note
+description: Quick reference for efficient coding 
+theme: jekyll-theme-cayman
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - _codes
+  - .gitignore
+  - make_index.sh
+  - makefile
