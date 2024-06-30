@@ -5,7 +5,7 @@ clean:
 	-rm -f *.markdown
 
 pub:
-	make default
+	make clean
 	make commit
 
 commit:
