@@ -5,11 +5,13 @@ printer () {
   echo
 }
 
+printer "# Menu)"
+
 cd _codes
 find . -type d | grep -v ^.$ | while read dir
 do
   cd ${dir}
-  printer "# $(basename ${dir})"
+  printer "## $(basename ${dir})"
   
   find . | sort | grep '.py$' | while read line
   do
