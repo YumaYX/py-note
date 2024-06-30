@@ -5,7 +5,7 @@ printer () {
   echo
 }
 
-printer "# Menu)"
+printer "# Menu"
 
 cd _codes
 find . -type d | grep -v ^.$ | while read dir
