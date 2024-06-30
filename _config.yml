@@ -1,6 +1,6 @@
 title: Py-Note
 description: Quick reference for efficient coding 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
 exclude:
   - Gemfile
   - Gemfile.lock
