@@ -40,3 +40,5 @@ do
   echo
   cd ..
 done
+
+echo "Executed with $(python3 --version)"
