@@ -1,0 +1,14 @@
+# sample
+
+## Code:
+
+```python
+print("This is a test.")
+```
+
+## Output:
+
+```
+This is a test.
+```
+
