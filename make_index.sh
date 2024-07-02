@@ -22,8 +22,10 @@ do
     
     {
       md_file="${line%.*}.md"
-      cat "${md_file}"
-      echo;echo
+      if [ -f ${md_file} ]; then
+        cat "${md_file}"
+        echo;echo
+      fi
       
       printer "## Code:"
       echo '```python'

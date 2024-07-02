@@ -1,11 +1,15 @@
 default: clean
 	sh make_index.sh > index.markdown
 
+test:
+	sh make_index.sh
+	make clean
+
 clean:
-	-rm -f *.markdown
+	rm -f *.markdown
 
 pub:
-	make clean
+	make test
 	make commit
 
 commit:
