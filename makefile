@@ -2,7 +2,7 @@ default: clean
 	sh make_index.sh > index.markdown
 
 test:
-	sh make_index.sh
+	sh make_index.sh > /dev/null
 	make clean
 
 clean:
