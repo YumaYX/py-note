@@ -1,9 +1,11 @@
+# Python >= 3.7
+
 import subprocess
 
 subprocess.run(['whoami'])
 
 command = 'whoami'
-result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+result = subprocess.run(command, capture_output=True, text=True)
 
 print(result)
 print(result.stdout)
