@@ -1,4 +1,9 @@
 import re
 
 s = 'abc'
-print(re.search('^ab', s))
+
+if re.search('^ab', s):
+    print("^ab")
+
+if re.search('xyz', s):
+    print("xyz")
