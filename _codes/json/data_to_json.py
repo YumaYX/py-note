@@ -53,4 +53,5 @@ fender_jazz_bass = {
 
 
 with open('output.json', 'w') as f:
+    print(f)
     json.dump(fender_jazz_bass, f)
